@@ -28,13 +28,27 @@ function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
       </div>
     );
   }
-  if (tasks.lenght === 0) {
-    return <div className="list-items">empty</div>;
+
+  if (tasks.length === 0) {
+    return (
+      <div className="list-items">
+        <div className="wrapper-message">
+          <span className="icon-check" />
+          <div className="title-message">You have no tasks</div>
+          <div className="subtitle-message">Sit back and relax</div>
+        </div>
+      </div>
+    );
   }
+
+  const tasksInOrder = [
+    ...tasks.filter(t => t.state === 'TASK_PINNED'),
+    ...tasks.filter(t => t.state !== 'TASK_PINNED')
+  ];
 
   return (
     <div className="list-items">
-      {tasks.map(task => (
+      {tasksInOrder.map(task => (
         <Task key={task.id} task={task} {...events} />
       ))}
     </div>
