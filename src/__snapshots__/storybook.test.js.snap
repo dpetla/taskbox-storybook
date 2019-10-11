@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Task archived 1`] = `
+<div
+  className="list-item"
+>
+  <input
+    readOnly={true}
+    type="text"
+    value="Test Task"
+  />
+</div>
+`;
+
+exports[`Storyshots Task default 1`] = `
+<div
+  className="list-item"
+>
+  <input
+    readOnly={true}
+    type="text"
+    value="Test Task"
+  />
+</div>
+`;
+
+exports[`Storyshots Task pinned 1`] = `
+<div
+  className="list-item"
+>
+  <input
+    readOnly={true}
+    type="text"
+    value="Test Task"
+  />
+</div>
+`;
+
+exports[`Storyshots TaskList default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  >
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 1"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 2"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 3"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 4"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 5"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 6"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskList empty 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  />
+</div>
+`;
+
+exports[`Storyshots TaskList loading 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskList withPinnedTasks 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  >
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 1"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 2"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 3"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 4"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 5"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 6 (pinned)"
+      />
+    </div>
+  </div>
+</div>
+`;
