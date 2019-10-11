@@ -34,6 +34,6 @@ Task.propTypes = {
     title: PropTypes.string.isRequired,
     state: PropTypes.string.isRequired
   }),
-  onPinTask: PropTypes.func,
-  onArchiveTask: PropTypes.func
+  onArchiveTask: PropTypes.func,
+  onPinTask: PropTypes.func
 };
